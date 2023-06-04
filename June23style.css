@@ -17,7 +17,7 @@ body {
 
 }
 
-.avatar img {
+.image img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -25,7 +25,7 @@ body {
     box-shadow: 0px 10px 20px powderblue;
 
 }
-.avatar {
+.image {
     display: flex;
     justify-content: end;
 }
@@ -63,7 +63,7 @@ li {
 .name .contact span {
     display: inline-block;
     background-color: black;
-    color:pink;
+    color:powderblue;
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -81,7 +81,7 @@ li {
 }
 
 .languages {
-    margin-top: 50px;
+    margin-top: 30px;
 
 }
 
@@ -138,46 +138,47 @@ h4 {
     /* line-height: 30px; */
 }
 
-.skills {
-    margin-top: 0px;
-    padding-left: 30px;
+.links {
+    margin-top: 20px;
     text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: lightblue;
 }
 
-.skills h3 {
-    padding: 0;
-    margin: 20px 0 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-} 
+a, span.link {
+    color: blue;
+  }
+  
+  a:visited, span.visited {
+     color: purple;
+  }
+  
+  a:active, span.active {
+     color: red;
+  }
 
-.skills span {
-    text-align: right;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-} 
+
 
 .project {
     padding-left: 30px;
-    text-align: justify;
+    text-align: left;
     border-left: 1px solid black;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
 }
 
 .project .item {
+    margin-top: 2%;
     position: relative;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+
 }
 
-/* .project .item::before {
-    position: absolute;
-    width: 13px;
-    height: 13px;
-    background-color: black;
-    content: '';
-    border-radius: 50%;
-    left: 37px;
-} */
-
+.proj-tools {
+    /* font-style: italic; */
+    font-weight: 600;
+    font-size: small;
+}
 
 /* .links .git {
     color: blue;
