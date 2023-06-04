@@ -1,15 +1,15 @@
 body {
-    background-color: yellow;
+    background-color: azure;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .container {
-    background-color: green;
+    background-color: aliceblue;
     width: 1000px;
     max-width: 100%;
     margin: auto;
     padding: 50px;
-    box-shadow: 0px 10px 20px orange;
+    box-shadow: 0px 10px 20px powderblue;
     display: grid;
     grid-template-columns: 25% 75%;
     column-gap: 5%;
@@ -22,6 +22,8 @@ body {
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
+    box-shadow: 0px 10px 20px powderblue;
+
 }
 .avatar {
     display: flex;
@@ -37,7 +39,7 @@ li {
 
 .name {
     padding-left: 30px;
-    border-left: 1px dashed pink;
+    border-left: 1px solid black;
 }
 
 .name h1 {
@@ -55,24 +57,32 @@ li {
 .name .contact {
     padding: 0;
     list-style: none;
+    
 }
 
 .name .contact span {
     display: inline-block;
-    background-color: blueviolet;
-    color:aqua;
+    background-color: black;
+    color:pink;
     width: 20px;
     height: 20px;
     border-radius: 50%;
     text-align: center;
     font: small;
     margin-right: 20px;
+    
 }
 
 .name .contact li {
     padding: 5px 0;
     transform: translate(-40px);
-    background-color: peachpuff;
+    background-color: blush;
+    box-shadow: 0px 10px 20px lightcyan;
+}
+
+.languages {
+    margin-top: 50px;
+
 }
 
 .languages ul {
@@ -80,6 +90,7 @@ li {
     margin: 0;
     list-style-type: none;
     text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     /* line-height: 30px; */
 }
 
@@ -88,18 +99,22 @@ li {
 }
 
 .technologies h3 {
-    margin: 20px 0 10px
+    margin: 20px 0 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .experience h3 {
     padding-left: 30px;
-    margin: 20px 0 10px
+    margin: 20px 0 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 .experience ul{
     padding-left: 30px;
-    border-left: 1px dashed red;
+    border-left: 1px solid black;
     text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .description {
@@ -117,32 +132,40 @@ h4 {
     padding: 0;
     margin: 0;
     list-style: none;
+    /* padding-right: 30px;
+    border-right: 1px solid black;
+    text-align: right; */
     /* line-height: 30px; */
 }
 
-.education {
-    margin-top: -235px;
+.skills {
+    margin-top: 0px;
     padding-left: 30px;
     text-align: right;
 }
 
-.education h3 {
+.skills h3 {
     padding: 0;
     margin: 20px 0 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 } 
 
-.education span {
+.skills span {
     text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 } 
 
 .project {
     padding-left: 30px;
     text-align: justify;
-    border-left: 1px dashed darkorange;
+    border-left: 1px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 .project .item {
     position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* .project .item::before {
