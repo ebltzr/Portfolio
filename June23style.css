@@ -1,6 +1,8 @@
 body {
     background-color: azure;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+
 }
 
 .container {
@@ -43,8 +45,9 @@ li {
 }
 
 .name h1 {
+    padding: 3%;
     font-weight: 300;
-    font-size: xxx-large;
+    /* font-size: xxx-large; */
     margin: 0 0 5px;
 }
 
@@ -68,7 +71,7 @@ li {
     height: 20px;
     border-radius: 50%;
     text-align: center;
-    font: small;
+    font: normal;
     margin-right: 20px;
     
 }
@@ -76,117 +79,175 @@ li {
 .name .contact li {
     padding: 5px 0;
     transform: translate(-40px);
-    background-color: blush;
+    /* background-color: lightgrey; */
     box-shadow: 0px 10px 20px lightcyan;
 }
 
-.languages {
+.skills {
     margin-top: 30px;
 
 }
 
-.languages ul {
+.skills ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
-    text-align: right;
+    font-size: large;
+    text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     /* line-height: 30px; */
 }
 
-.technologies {
-    text-align: right;
+
+.tools {
+    text-align: left;
+
 }
 
-.technologies h3 {
-    margin: 20px 0 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+div.education h3 {
+    margin: 20px -5px 0;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
 }
 
-.experience h3 {
-    padding-left: 30px;
-    margin: 20px 0 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
-}
-
-.experience ul{
-    padding-left: 30px;
-    border-left: 1px solid black;
+.education .item {
+    /* padding-right: 0; */
+    list-style-type: none;
+    font-size: large;
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.description {
-    padding: 0;
-    margin: 0;
-    position: relative;
+.education ul{
+    padding-left: 30px;
+    border-left: 1px solid black;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
+
+.description {
+    /* padding: 1%; */
+    margin: 2px;
+    position: relative;
+
+}
+div.description {
+    /* padding: -4%; */
+    font-size: large;
+}
+
+div.project {
+    font-size: large;
+}
+
 
 h4 {
     padding: 0;
     margin: 0 0 20px;
+
 }
 
-.technologies ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    /* padding-right: 30px;
-    border-right: 1px solid black;
-    text-align: right; */
-    /* line-height: 30px; */
-}
 
-.links {
-    margin-top: 20px;
-    text-align: right;
+.links :hover {  
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: lightblue;
+    color: royalblue;
+    font-size: x-large;
+}
+.links {
+    /* margin-top: -40%; */
+    text-align: left;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+
+    
 }
 
-a, span.link {
-    color: blue;
-  }
-  
-  a:visited, span.visited {
-     color: purple;
-  }
-  
-  a:active, span.active {
-     color: red;
-  }
+h2 {
+    font-size: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+h3 {
+    font-size: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#project-link :hover{
+    color: royalblue;
+    font-size: x-large;
+}
 
 
-
-.project {
+.links a {
+    /* padding-top: -30%; */
     padding-left: 30px;
+    padding-right: 5%;
     text-align: left;
     border-left: 1px solid black;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#links {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#links :hover {
+    color: royalblue;    
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.references p{
+    /* padding-top: -30%; */
+    padding-left: 30px;
+    padding-right: 5%;
+    text-align: left;
+    border-left: 1px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#ref {
+    font-weight: bold;
+}
+
+a {
+    color: black;
+    /* text-decoration: none; */
+}
+
+li.proj-name :hover {  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: royalblue;
+    font-weight: bold;
+}
+
+
+.item  {
+    font-weight: normal;
+    font-size: large;
 }
 
 .project .item {
     margin-top: 2%;
     position: relative;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: larger;
-
+    font-size: large;
+    text-decoration: none;
 }
 
 .proj-tools {
     /* font-style: italic; */
     font-weight: 600;
-    font-size: small;
+    font-size: medium;
 }
 
-/* .links .git {
-    color: blue;
-    padding: 10px 0;
+.footer {
+    padding-top: 10%;
+    text-align: left;
+    margin-top: 20%;
+    column-gap: 5%;
 }
-.links .replit {
-    font-weight: 500;
-    padding: 10px;
-}
-*/
-
